@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="30000">
-		<setting id="librefmsubmitsongs" type="bool" label="30004" default="true"/>
-		<setting id="librefmsubmitradio" type="bool" label="30005" default="true"/>
-		<setting id="librefmuser" type="text" label="30006" default="" enable="eq(-1,true) | eq(-2,true)"/>
-		<setting id="librefmpass" type="text" label="30007" default="" enable="eq(-2,true) | eq(-3,true)" option="hidden"/>
+		<setting id="testingsubmitsongs" type="bool" label="30004" default="true"/>
+		<setting type="sep"/>
+		<setting id="testingsubmitradio" type="bool" label="30005" default="true"/>
+		<setting type="sep"/>
+		<setting id="testinguser" type="text" label="30006" default="" enable="eq(-1,true) | eq(-2,true)"/>
+		<setting type="sep"/>
+		<setting id="testingpass" type="text" label="30007" default="" enable="eq(-2,true) | eq(-3,true)" option="hidden"/>
+		<setting type="sep"/>
 	</category>
 </settings>
